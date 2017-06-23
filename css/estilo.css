@@ -248,9 +248,10 @@ html, body{
     
 }
 
-input, select, p{
+input, select, p, button{
     font-family: 'Slabo 27px', serif;
     margin-top: 10px;
+    font-size: 1.2em;
     
 }
 
@@ -258,6 +259,7 @@ input, select, p{
     
     margin-top: 10px;
     margin-bottom: 10px;
+    1.2em;
     
 }
 
@@ -267,6 +269,18 @@ input, select, p{
     background-color: #000;
     color: #fff;
     padding: 5px;
+    border: 0px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    
+}
+
+.botaoBusca{
+    
+    background-color: #000;
+    color: #fff;
+    padding: 3px;
+    font-size: 1.1em;
     border: 0px;
     border-radius: 4px;
     margin-bottom: 10px;
@@ -308,13 +322,14 @@ footer{
     
 }
 
-input, select, p, a{
+input, select, p, a, TEXTAREA{
     font-family: 'Slabo 27px', serif;
+    font-size: 1.2em;
 }
 
-nav, ul, li{
+nav, ul, li, .aMenu, .aMenuPaginaAtual{
     
-    font-family: Tahoma !important;
+    font-family: 'Pangolin', cursive;
     
 }
 
@@ -322,4 +337,23 @@ h1, h2, h3{
 
   font-family: Tahoma;
 
+}
+
+h3{
+    
+    font-size: 1.5em;
+    
+}
+
+select{
+    
+    height: 24px;
+    
+}
+
+footer{
+    
+    bottom: 0;
+    margin-top: 38px;
+    
 }
