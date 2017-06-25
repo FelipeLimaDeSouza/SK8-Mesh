@@ -98,7 +98,10 @@ html, body{
     margin-top: 10px;
     text-align: center;
     display: table;
-    height: 400px;
+    position: relative;
+    max-height: 400px;
+    min-height: 400px;
+    
 }
 
 .promos{
@@ -116,6 +119,14 @@ html, body{
     text-align: center;
     display: table;
     height: 400px;
+}
+
+.competidores{
+    
+    margin-top: 10px;
+    text-align: center;
+    display: table;
+    height: 250px;
 }
 
 .a_noticias{
