@@ -267,7 +267,7 @@ html, body{
     
 }
 
-input, select, p, button{
+input, select, p, button, option{
     font-family: 'Slabo 27px', serif;
     margin-top: 10px;
     font-size: 1.2em;
@@ -341,7 +341,7 @@ footer{
     
 }
 
-input, select, p, a, TEXTAREA{
+input, select, p, a, TEXTAREA, option{
     font-family: 'Slabo 27px', serif;
     font-size: 1.2em;
 }
@@ -366,7 +366,7 @@ h3{
 
 select{
     
-    height: 24px;
+    height: 29px;
     
 }
 
